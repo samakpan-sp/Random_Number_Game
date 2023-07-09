@@ -27,14 +27,14 @@ function checkGuess() {
         lowOrHi.textContent = "";
         setGameOver();
     } else if (guessCount === 10) {
-        lastResult.textContent = "!GAME OVER!";
+        lastResult.textContent = "!Game Over!";
         lowOrHi.textContent = "";
         setGameOver();
     } else {
         lastResult.textContent = "Wrong";
         lastResult.style.backgroundColor = "red";
         if (userGuess < randomNumber) {
-            lowOrHi.textContent = "Your guess is too low!";
+            lowOrHi.textContent = "Your guess is too low, try again!";
             
         } else if (userGuess > randomNumber) {
             lowOrHi.textContent = "Your guess is too high!";
