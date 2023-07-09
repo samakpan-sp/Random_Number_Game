@@ -27,7 +27,7 @@ function checkGuess() {
         lowOrHi.textContent = "";
         setGameOver();
     } else if (guessCount === 10) {
-        lastResult.textContent = "!!GAME OVER!!";
+        lastResult.textContent = "!GAME OVER!";
         lowOrHi.textContent = "";
         setGameOver();
     } else {
